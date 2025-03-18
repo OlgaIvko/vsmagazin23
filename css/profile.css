@@ -1,0 +1,48 @@
+.section_div{
+    display: block;
+    max-width: 270px;
+    height: 810px;
+    background-color: #dcd2e0;
+    border-radius: 15px;
+    box-shadow:0px 0px 3px 0px #9564AA;
+
+}
+
+.profile{
+    display: flex;
+    justify-content: space-between;
+   padding: 5px 15px 0 5px;
+
+}
+.btn_li{
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    width: 86px;
+    height: 22px;
+    background-color: #684677 ;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 5px;
+
+}
+
+.text{
+    color: black;
+}
+
+.img_profi{
+    margin-top: 18px;
+    margin-left: 18px;
+}
+
+
+.ul_prof{
+
+    margin-right: 50px;
+}
+
+
+

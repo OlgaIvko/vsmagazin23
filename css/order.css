@@ -1,0 +1,19 @@
+
+.order{
+    margin: 0 15px;
+}
+
+.order_li{
+    margin-top: 24px;
+    color: black;
+}
+
+.svg_li{
+ margin: 0 26px -7px 0;
+
+}
+
+.order_ul{
+
+    border-top: 2px solid   #b9a5c3;
+}

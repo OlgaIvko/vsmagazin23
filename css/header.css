@@ -1,0 +1,178 @@
+.nav_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-color: #9654AA;
+  padding: 22px 374px 22px 402px;
+}
+
+.header__burger {
+  display: none;
+}
+
+.header__btn {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  color: #333;
+  outline: none;
+  transition: color var(0.3s);
+  cursor: pointer;
+}
+
+
+.header__btn:focus:not(:hover) {
+  outline: 2px solid #888888;
+  outline-offset: 3px;
+}
+
+
+.header__btn:active {
+  color: #727272;
+}
+
+.nav_logo {
+  width: 114px;
+  height: 56px;
+
+}
+
+.nav_ul {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.nav_li {
+  padding-right: 42px;
+}
+
+.premium_li {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  align-items: center;
+  border-radius: 15px;
+  width: 122px;
+  height: 36px;
+  background-color: #684677;
+  color: #FFCF2D;
+}
+
+.svg_nav {
+  margin-left: 10px;
+}
+
+
+@media (max-width: 1221px) {
+
+  .nav_header {
+
+    padding: 22px 46px ;
+  }
+
+}
+
+
+
+@media (max-width: 576px) {
+
+  .nav_ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 42px 22px 42px;
+  }
+
+
+  .svg_media {
+    margin-left: 186px;
+    width: 20px;
+    height: 18px;
+
+    background-image: url('../img/kristal.png');
+  }
+
+  .nav_logo {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+  }
+
+  .nav_li {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+  }
+
+
+
+  .header__burger {
+    position: relative;
+    z-index: 13;
+    display: inline-block;
+    width: 30px;
+    height: 23px;
+  }
+
+  .header__menu-wrap {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 12;
+    display: none;
+    width: 420px;
+    height: 100vh;
+    padding: 162px 80px 40px 49px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    transform: translateX(-100%);
+  }
+
+
+
+  .header__search-input {
+    width: 400px;
+  }
+
+
+
+  .header__menu-wrap {
+    width: 100%;
+    padding: 79px 15px 40px;
+  }
+
+  .header__menu-wrap.is-active {
+    display: block;
+    transform: translateX(0);
+    animation-name: menu-open;
+    animation-duration: 0.3s;
+  }
+
+
+  .header__menu-wrap.is-closed {
+    animation-name: menu-close;
+    animation-duration: 0.3s;
+  }
+
+
+
+
+}

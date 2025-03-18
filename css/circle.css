@@ -1,0 +1,169 @@
+ .picsher {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 50px;
+ }
+
+ .picsher2 {
+   margin: 0 112px 0 178px;
+ }
+
+ .img_1 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 150px;
+ }
+
+ .img_2 {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-left: 94px;
+ }
+
+
+
+ .img_li {
+   margin: 0;
+ }
+
+ .img_center {
+   margin-left: -66px;
+ }
+
+ .img_1p {
+
+   text-align: center;
+   width: 50%;
+   color: blueviolet;
+   font-size: 12px;
+
+ }
+
+ .svg_pic {
+   margin-left: 8px;
+ }
+
+ .svg_pic2 {
+   margin-left: 36px;
+ }
+
+ .circle-container {
+   position: relative;
+   width: 24em;
+   height: 24em;
+   padding: 2.8em;
+   /*2.8em = 2em*1.4 (2em = half the width of a link with img, 1.4 = sqrt(2))*/
+   border: dashed 1px;
+   border-radius: 50%;
+   margin: 1.75em auto 0;
+ }
+
+
+ .circle-container a {
+   display: block;
+
+   top: 50%;
+   left: 50%;
+   width: 50px;
+   height: 50px;
+   margin: -2em;
+ }
+
+ .circle-container2 {
+   position: absolute;
+
+   position: absolute;
+   bottom: -6px;
+   right: 166px;
+   width: 100px;
+   height: 100px;
+
+ }
+
+ .circle-container img {
+   display: block;
+   width: 100%;
+ }
+
+ .deg0 {
+   transform: translate(12em);
+ }
+
+ /* 12em = half the width of the wrapper */
+ .deg45 {
+   transform: rotate(45deg) translate(12em) rotate(-45deg);
+ }
+
+ .deg135 {
+   transform: rotate(135deg) translate(12em) rotate(-135deg);
+ }
+
+ .deg180 {
+   transform: translate(-12em);
+ }
+
+ .deg225 {
+   transform: rotate(225deg) translate(12em) rotate(-225deg);
+ }
+
+ .deg315 {
+   transform: rotate(315deg) translate(12em) rotate(-315deg);
+ }
+
+ .img_p {
+   padding: 0;
+   margin: 0;
+ }
+
+ .medea_center {
+   display: none;
+ }
+
+
+ @media (max-width: 992px) {
+   .picsher2 {
+     display: none;
+   }
+
+
+   .img_1p {
+
+
+     width: max-content;
+
+
+   }
+
+
+   .medea_center {
+     display: block;
+     margin-left: 88px;
+     margin-top: 32px;
+   }
+
+   .picsher {
+     display: block;
+     margin: 0;
+
+   }
+
+   .img_1 {
+     display: block;
+     padding: 0;
+     margin: 0 0 0 -22px;
+   }
+
+   .img_li {
+     display: flex;
+   }
+
+   .svg_pic2 {
+     margin-top: 2px;
+     margin-left: 9px;
+   }
+
+
+ }

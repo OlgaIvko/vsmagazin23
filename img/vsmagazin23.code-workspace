@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"name": "vsmagazin23",
+			"path": "../../../Documents/GitHub/vsmagazin23"
+		},
+		{
+			"name": "img",
+			"path": "."
+		},
+		{
+			"name": "js",
+			"path": "../../../Documents/GitHub/vsmagazin/js"
+		},
+		{
+			"name": "css",
+			"path": "../../../Documents/GitHub/vsmagazin/css"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "vsmagazin23"
+	}
+}
